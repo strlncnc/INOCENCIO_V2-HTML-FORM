@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(122, 98, 79);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+nav{
+    background: rgb(243, 203, 170);
+    padding: 10px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.brand-title{
+    display: inline-block;
+    margin: 0;
+    color: rgb(134, 71, 71);
+    font-family: Verdana;
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+}
+
+.links-container{
+    float: right;
+    position: relative;
+    top: 27px;
+}
+
+.link{
+    color: rgb(134, 71, 71);
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 15px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    color: rgb(0, 0, 0);
+}
+
+.btn-link{
+    background-color: rgb(134, 71, 50);
+    padding: 8px 25px;
+    font-family: Verdana;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-link:hover{
+    color: black;
+    padding: 8px 30px;
+}
+
+form{
+    background: rgba(255, 255, 255, 0.4);
+    color: rgb(134, 71, 50);
+    font-family: Verdana;
+    width: 60vw;
+    padding: 30px;
+    max-width: 46rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: initial;
+}
+
+form a{
+    color: rgb(170, 71, 50);
+    transition: 0.2s;
+}
+
+form a:hover{
+    color: rgb(243, 203, 170);
+}
+
+p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h4{
+    padding: 50px 150px;
+    margin-top: -40px;
+}
+
+.form-row input[type = "email"]{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    width: 375px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.form-row input[type = "password"]{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    width: 375px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 13px;
+}
+
+.form-row input[type = "checkbox"]{
+    margin-bottom: 15px;
+}
+
+.reminder-row p{
+    font-size: 12px;
+    width: 380px;
+    height: 20;
+    margin-bottom: 20px;
+}
+
+#btn-signin{
+    background-color: rgba(134, 71, 50, 0.5);
+    border: 0;
+    padding: 10px 163px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+#btn-signin:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(134, 71, 50, 1);
+}
+
+.btn-create{
+    background-color: rgba(134, 71, 50, 0.5);
+    border: 0;
+    padding: 8px 120px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    transition: 0.2s;
+}
+
+.btn-create:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(134, 71, 50, 1);
+}
+
+.btn-facebook{
+    background-color: rgba(134, 71, 50, 0.5);
+    border: 0;
+    padding: 8px 85px;
+    margin-top: -40px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    transition: 0.2s;
+}
+
+.btn-facebook:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(134, 71, 50, 1);
+}
+
+footer{
+    background-color: rgb(243, 203, 170);
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(243, 203, 170);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icons a i{
+    font-size: 2em;
+    color: rgb(134, 71, 50);
+    opacity: 0.7;
+}
+
+.social-icons a:hover{
+    background-color: rgb(134, 71, 50);
+    transition: 0.5s;
+}
+
+.social-icons a:hover i{
+    color: rgb(243, 203, 170);
+    transition: 0.5s;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none
+}
+
+.footer-nav ul li a{
+    color: rgb(134, 71, 50);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom{
+    background-color: rgb(243, 203, 170);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: rgb(134, 71, 50);
+}
+
+
+@media (max-width: 700px){
+    .footer-nav ul{
+        flex-direction: column;
+
+    }
+
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    form{
+        flex-direction: row;
+    }
+
+    .form-row,
+    .register-row{
+        flex-direction: row;
+        align-items: flex-start; /* To avoid stretching */
+        height: initial;
+    }
+
+    .form-row input[type = "email"],
+    .form-row input[type = "password"],
+    .reminder-row p{
+        width: 100%;
+    }
+
+    #btn-signin{
+        width: 100%;
+        margin: 0;
+        padding: 10px 4px;
+    }
+
+    .btn-create,
+    .btn-facebook{
+        position: static;
+        display: block;
+        margin-right: auto;
+        margin-bottom: auto;
+        padding: 10px;
+    }
+}
